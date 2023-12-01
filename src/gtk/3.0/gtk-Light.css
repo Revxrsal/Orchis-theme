@@ -1272,7 +1272,7 @@ searchbar > revealer > box {
  * Header bars *
  ***************/
 .nemo-window .primary-toolbar button:not(.text-button), headerbar button:not(.suggested-action):not(.destructive-action) {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .nemo-window .primary-toolbar .linked:not(.vertical) > button:not(.text-button), headerbar .linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action) {
@@ -1297,7 +1297,7 @@ searchbar > revealer > box {
 }
 
 .nemo-window .primary-toolbar button:backdrop:focus:not(.text-button), headerbar button:backdrop:focus:not(.suggested-action):not(.destructive-action), .nemo-window .primary-toolbar button:backdrop:hover:not(.text-button), headerbar button:backdrop:hover:not(.suggested-action):not(.destructive-action), .nemo-window .primary-toolbar button:backdrop:active:not(.text-button), headerbar button:backdrop:active:not(.suggested-action):not(.destructive-action) {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .nemo-window .primary-toolbar button:backdrop:disabled:not(.text-button), headerbar button:backdrop:disabled:not(.suggested-action):not(.destructive-action) {
@@ -1305,7 +1305,7 @@ searchbar > revealer > box {
 }
 
 .nemo-window .primary-toolbar button:backdrop:checked:not(.text-button), headerbar button:backdrop:checked:not(.suggested-action):not(.destructive-action) {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .nemo-window .primary-toolbar button:backdrop:checked:disabled:not(.text-button), headerbar button:backdrop:checked:disabled:not(.suggested-action):not(.destructive-action) {
@@ -1323,7 +1323,7 @@ searchbar > revealer > box {
 }
 
 .nemo-window .primary-toolbar entry image, .titlebar entry image {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .nemo-window .primary-toolbar entry image:hover, .titlebar entry image:hover, .nemo-window .primary-toolbar entry image:active, .titlebar entry image:active {
@@ -1348,7 +1348,7 @@ searchbar > revealer > box {
 
 .titlebar:backdrop {
   background-color: #FAFAFA;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .titlebar:backdrop:disabled {
@@ -1368,7 +1368,7 @@ searchbar > revealer > box {
 .titlebar .subtitle,
 .titlebar .dim-label {
   transition: color 75ms cubic-bezier(0, 0, 0.2, 1);
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .titlebar .subtitle:backdrop,
@@ -1790,7 +1790,7 @@ menubar,
 menubar:backdrop,
 .menubar:backdrop {
   background-color: #FAFAFA;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 menubar > menuitem,
@@ -1798,7 +1798,7 @@ menubar > menuitem,
   transition: none;
   min-height: 20px;
   padding: 2px 8px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
   border-radius: 5px;
 }
 
@@ -4151,7 +4151,7 @@ popover.emoji-completion .emoji:hover {
 .nautilus-window.background.csd placessidebar {
   background-color: transparent;
   border-radius: 18px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
   margin: 0 0 12px 12px;
 }
 
@@ -4178,7 +4178,7 @@ popover.emoji-completion .emoji:hover {
 }
 
 .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable image.sidebar-icon, .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable label.sidebar-label {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .nautilus-window.background.csd placessidebar > viewport.frame > list > row.activatable image.sidebar-icon {
@@ -4303,7 +4303,7 @@ popover.emoji-completion .emoji:hover {
 }
 
 .nautilus-window.background.csd notebook > header tab {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .nautilus-window.background.csd notebook > header tab:hover:not(:checked):not(:active) {
@@ -6140,7 +6140,7 @@ window.background.chromium > button:disabled {
 }
 
 window.background.chromium menubar, window.background.chromium headerbar {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 window.background.chromium menu {
@@ -6270,7 +6270,7 @@ tooltip.background.chromium {
 }
 
 #MozillaGtkWidget > widget > menubar {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 #MozillaGtkWidget > widget > menubar:hover {
@@ -6626,11 +6626,11 @@ UnityDecoration .top {
 
 UnityDecoration .top:backdrop {
   background-color: #FAFAFA;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 UnityDecoration .menuitem {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 UnityDecoration .menuitem:hover {
@@ -6656,12 +6656,12 @@ UnityPanelWidget,
 
 UnityPanelWidget:backdrop,
 .unity-panel:backdrop {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .unity-panel.menuitem,
 .unity-panel .menuitem {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .unity-panel.menubar.menuitem:hover,
@@ -8400,7 +8400,7 @@ dialog.xfsm-logout-dialog {
 .nemo-window .primary-toolbar button.text-button {
   padding-left: 8px;
   padding-right: 8px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .nemo-window .primary-toolbar button.text-button:hover, .nemo-window .primary-toolbar button.text-button:active, .nemo-window .primary-toolbar button.text-button:checked {
@@ -8510,7 +8510,7 @@ these are pretty self explicative */
 these colors are exported for the window manager and shouldn't be used in applications,
 read if you used those and something break with a version upgrade you're on your own... */
 @define-color wm_title rgba(0, 0, 0, 0.87);
-@define-color wm_unfocused_title rgba(0, 0, 0, 0.6);
+@define-color wm_unfocused_title rgba(0, 0, 0, 0.87);
 @define-color wm_highlight rgba(255, 255, 255, 0.4);
 @define-color wm_bg #FFFFFF;
 @define-color wm_unfocused_bg #FAFAFA;

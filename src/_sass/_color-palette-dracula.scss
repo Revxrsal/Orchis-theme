@@ -65,3 +65,23 @@ $black: #000000;
 $button-close: if($variant == 'light', #ed5d5d, #e9524a);
 $button-max: if($variant == 'light', #43db68, #59c837);
 $button-min: if($variant == 'light', #e3d93b, #f1ae1b);
+// Close
+$wm_button_close_bg:                if($variant == 'light', #fe6254, #e9524a);
+$wm_button_close_hover_bg:          if($variant == 'light', #fe6254, #e9524a);
+$wm_button_close_active_bg:         if($variant == 'light', #cb4e43, #ba423b);
+$wm_button_close_border:            if($variant == 'light', #cb4e43, #ba423b);
+$wm_icon_close_bg:                  if($variant == 'light', #7f312a, #742925);
+
+// Minimize
+$wm_button_minimize_bg:             if($variant == 'light', #fdc92d, #f1ae1b);
+$wm_button_minimize_hover_bg:       if($variant == 'light', #fdc92d, #f1ae1b);
+$wm_button_minimize_active_bg:      if($variant == 'light', #caa124, #c18b16);
+$wm_button_minimize_border:         if($variant == 'light', #caa124, #c18b16);
+$wm_icon_minimize_bg:               if($variant == 'light', #7e6416, #78570d);
+
+// Maximize
+$wm_button_maximize_bg:             if($variant == 'light', #28d33f, #59c837);
+$wm_button_maximize_hover_bg:       if($variant == 'light', #28d33f, #59c837);
+$wm_button_maximize_active_bg:      if($variant == 'light', #20a932, #47a02c);
+$wm_button_maximize_border:         if($variant == 'light', #20a932, #47a02c);
+$wm_icon_maximize_bg:               if($variant == 'light', #14691f, #2c641b);

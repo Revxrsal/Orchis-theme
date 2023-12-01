@@ -1494,7 +1494,7 @@ searchbar > revealer > box splitbutton {
 }
 
 headerbar button:not(.suggested-action):not(.destructive-action) {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 headerbar .linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action) {
@@ -1519,7 +1519,7 @@ headerbar button:backdrop:not(.suggested-action):not(.destructive-action) {
 }
 
 headerbar button:backdrop:focus:not(.suggested-action):not(.destructive-action), headerbar button:backdrop:hover:not(.suggested-action):not(.destructive-action), headerbar button:backdrop:active:not(.suggested-action):not(.destructive-action) {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 headerbar button:backdrop:disabled:not(.suggested-action):not(.destructive-action) {
@@ -1527,7 +1527,7 @@ headerbar button:backdrop:disabled:not(.suggested-action):not(.destructive-actio
 }
 
 headerbar button:backdrop:checked:not(.suggested-action):not(.destructive-action) {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 headerbar button:backdrop:checked:disabled:not(.suggested-action):not(.destructive-action) {
@@ -1560,7 +1560,7 @@ headerbar button:backdrop:checked:disabled:not(.suggested-action):not(.destructi
 }
 
 #NautilusQueryEditor > image, headerbar entry > image {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 #NautilusQueryEditor > image:hover, headerbar entry > image:hover, #NautilusQueryEditor > image:active, headerbar entry > image:active {
@@ -1587,7 +1587,7 @@ headerbar:disabled {
 }
 
 headerbar:backdrop {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
   background-color: #3C3C3C;
   filter: none;
 }
@@ -1651,7 +1651,7 @@ row headerbar label.subtitle,
 .content-pane headerbar entry > text > placeholder,
 headerbar entry > text > placeholder {
   transition: color 75ms cubic-bezier(0, 0, 0.2, 1);
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 headerbar .subtitle:backdrop,
@@ -1741,7 +1741,7 @@ headerbar stackswitcher {
 
 headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button {
   border-radius: 9999px;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:focus, headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:hover, headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:active {
@@ -1765,7 +1765,7 @@ headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):no
 }
 
 headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:backdrop:focus, headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:backdrop:hover, headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:backdrop:active {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:backdrop:disabled {
@@ -1966,7 +1966,7 @@ headerbar .pathbar {
   margin-top: 6px;
   margin-bottom: 6px;
   background-color: rgba(255, 255, 255, 0.04);
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .pathbar > button {
@@ -2181,7 +2181,7 @@ menubar {
 
 menubar:backdrop {
   background-color: #3C3C3C;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .csd menubar {
@@ -2192,7 +2192,7 @@ menubar > item {
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
   min-height: 20px;
   padding: 4px 8px;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 menubar > item:selected {
@@ -5000,7 +5000,7 @@ popover.entry-completion > contents {
 .nautilus-window .sidebar-pane > toolbarview > placessidebar {
   background-color: #2C2C2C;
   border-radius: 18px;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .nautilus-window flap.unfolded > placessidebar > scrolledwindow,
@@ -5068,7 +5068,7 @@ popover.entry-completion > contents {
 .nautilus-window .sidebar-pane > toolbarview > placessidebar > scrolledwindow > viewport > list.navigation-sidebar > row.activatable,
 .nautilus-window .sidebar-pane > toolbarview > placessidebar > scrolledwindow > viewport > list.navigation-sidebar > row.activatable image.sidebar-icon,
 .nautilus-window .sidebar-pane > toolbarview > placessidebar > scrolledwindow > viewport > list.navigation-sidebar > row.activatable label.sidebar-label {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .nautilus-window flap.unfolded > placessidebar > scrolledwindow > viewport > list.navigation-sidebar > row.activatable image.sidebar-icon,
@@ -5182,7 +5182,7 @@ popover.entry-completion > contents {
 }
 
 .nautilus-window tabbar tab {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .nautilus-window tabbar tab:hover:not(:selected):not(:active):not(:checked) {
@@ -5245,7 +5245,7 @@ popover.entry-completion > contents {
 
 #NautilusQueryEditor {
   border-radius: 9999px;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
   padding: 0 4px 0 8px;
 }
 
@@ -7543,14 +7543,14 @@ these are pretty self explicative */
 these colors are exported for the window manager and shouldn't be used in applications,
 read if you used those and something break with a version upgrade you're on your own... */
 @define-color wm_title white;
-@define-color wm_unfocused_title rgba(255, 255, 255, 0.7);
+@define-color wm_unfocused_title white;
 @define-color wm_highlight rgba(255, 255, 255, 0.1);
 @define-color wm_bg #2C2C2C;
 @define-color wm_unfocused_bg #3C3C3C;
 /*
 FIXME this is really an API */
 @define-color content_view_bg #2C2C2C;
-@define-color placeholder_text_color #0d0d0d;
+@define-color placeholder_text_color silver;
 /* Very contrasty background for text views (@theme_text_color foreground) */
 @define-color text_view_bg #1d1d1d;
 @define-color budgie_tasklist_indicator_color rgba(255, 255, 255, 0.7);

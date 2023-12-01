@@ -1498,7 +1498,7 @@ searchbar > revealer > box splitbutton {
 .sidebar-pane popover > contents modelbutton,
 .sidebar-pane popover > contents button.image-button.model,
 .sidebar-pane popover > contents button:not(.suggested-action):not(.destructive-action), .sidebar-pane button:not(.suggested-action):not(.destructive-action), .nautilus-window .content-pane headerbar button:not(.suggested-action):not(.destructive-action), headerbar button:not(.suggested-action):not(.destructive-action) {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .sidebar-pane popover > arrow .linked:not(.vertical) > modelbutton, .sidebar-pane popover > arrow .linked:not(.vertical) > button.image-button.model,
@@ -1547,7 +1547,7 @@ searchbar > revealer > box splitbutton {
 .sidebar-pane popover > contents button.image-button.model:backdrop:hover, .sidebar-pane button:backdrop:hover:not(.suggested-action):not(.destructive-action), .nautilus-window .content-pane headerbar button:backdrop:hover:not(.suggested-action):not(.destructive-action), headerbar button:backdrop:hover:not(.suggested-action):not(.destructive-action), .sidebar-pane popover > arrow modelbutton:backdrop:active, .sidebar-pane popover > arrow button.image-button.model:backdrop:active,
 .sidebar-pane popover > contents modelbutton:backdrop:active,
 .sidebar-pane popover > contents button.image-button.model:backdrop:active, .sidebar-pane button:backdrop:active:not(.suggested-action):not(.destructive-action), .nautilus-window .content-pane headerbar button:backdrop:active:not(.suggested-action):not(.destructive-action), headerbar button:backdrop:active:not(.suggested-action):not(.destructive-action) {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .sidebar-pane popover > arrow modelbutton:backdrop:disabled, .sidebar-pane popover > arrow button.image-button.model:backdrop:disabled,
@@ -1559,7 +1559,7 @@ searchbar > revealer > box splitbutton {
 .sidebar-pane popover > arrow modelbutton:backdrop:checked, .sidebar-pane popover > arrow button.image-button.model:backdrop:checked,
 .sidebar-pane popover > contents modelbutton:backdrop:checked,
 .sidebar-pane popover > contents button.image-button.model:backdrop:checked, .sidebar-pane button:backdrop:checked:not(.suggested-action):not(.destructive-action), .nautilus-window .content-pane headerbar button:backdrop:checked:not(.suggested-action):not(.destructive-action), headerbar button:backdrop:checked:not(.suggested-action):not(.destructive-action) {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .sidebar-pane popover > arrow modelbutton:backdrop:checked:disabled, .sidebar-pane popover > arrow button.image-button.model:backdrop:checked:disabled,
@@ -1597,7 +1597,7 @@ searchbar > revealer > box splitbutton {
 
 .sidebar-pane popover > arrow entry > image,
 .sidebar-pane popover > contents entry > image, .sidebar-pane entry > image, #NautilusQueryEditor > image, headerbar entry > image {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .sidebar-pane popover > arrow entry > image:hover,
@@ -1627,7 +1627,7 @@ headerbar:disabled {
 }
 
 headerbar:backdrop {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
   background-color: #3C3C3C;
   filter: none;
 }
@@ -1694,7 +1694,7 @@ row headerbar label.subtitle,
 headerbar popover.background entry > text > placeholder,
 headerbar entry > text > placeholder {
   transition: color 75ms cubic-bezier(0, 0, 0.2, 1);
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 headerbar .subtitle:backdrop,
@@ -1801,7 +1801,7 @@ headerbar stackswitcher {
 
 headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button {
   border-radius: 9999px;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:focus, headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:hover, headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:active {
@@ -1825,7 +1825,7 @@ headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):no
 }
 
 headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:backdrop:focus, headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:backdrop:hover, headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:backdrop:active {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 headerbar stackswitcher.linked:not(.vertical) > button:not(.suggested-action):not(.destructive-action).text-button:backdrop:disabled {
@@ -2026,7 +2026,7 @@ headerbar .pathbar {
   margin-top: 6px;
   margin-bottom: 6px;
   background-color: rgba(255, 255, 255, 0.04);
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .pathbar > button {
@@ -2241,7 +2241,7 @@ menubar {
 
 menubar:backdrop {
   background-color: #3C3C3C;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .csd menubar {
@@ -2252,7 +2252,7 @@ menubar > item {
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
   min-height: 20px;
   padding: 4px 8px;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 menubar > item:selected {
@@ -5024,7 +5024,7 @@ popover.entry-completion > contents {
 }
 
 .nautilus-window.background.csd {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .nautilus-window.background.csd, .nautilus-window.background.csd:backdrop {
@@ -5061,7 +5061,7 @@ row.expander:not(:checked) .nautilus-window .sidebar-pane headerbar image.expand
 row .nautilus-window .content-pane headerbar label.subtitle,
 .nautilus-window .content-pane headerbar row.expander:not(:checked) image.expander-row-arrow,
 row.expander:not(:checked) .nautilus-window .content-pane headerbar image.expander-row-arrow {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .nautilus-window .sidebar-pane headerbar .subtitle:backdrop,
@@ -5169,7 +5169,7 @@ row.expander:not(:checked) .nautilus-window .content-pane headerbar popover.back
 .nautilus-window .sidebar-pane > toolbarview > placessidebar {
   background-color: #2C2C2C;
   border-radius: 18px;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .nautilus-window flap.unfolded > placessidebar > scrolledwindow,
@@ -5237,7 +5237,7 @@ row.expander:not(:checked) .nautilus-window .content-pane headerbar popover.back
 .nautilus-window .sidebar-pane > toolbarview > placessidebar > scrolledwindow > viewport > list.navigation-sidebar > row.activatable,
 .nautilus-window .sidebar-pane > toolbarview > placessidebar > scrolledwindow > viewport > list.navigation-sidebar > row.activatable image.sidebar-icon,
 .nautilus-window .sidebar-pane > toolbarview > placessidebar > scrolledwindow > viewport > list.navigation-sidebar > row.activatable label.sidebar-label {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .nautilus-window flap.unfolded > placessidebar > scrolledwindow > viewport > list.navigation-sidebar > row.activatable image.sidebar-icon,
@@ -5351,7 +5351,7 @@ row.expander:not(:checked) .nautilus-window .content-pane headerbar popover.back
 }
 
 .nautilus-window tabbar tab {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
   border: none;
 }
 
@@ -5445,7 +5445,7 @@ row.expander:not(:checked) .nautilus-window .content-pane headerbar popover.back
 
 #NautilusQueryEditor {
   border-radius: 9999px;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
   padding: 0 4px 0 8px;
 }
 
@@ -7508,11 +7508,11 @@ window.maximized .sidebar-pane headerbar, window.tiled .sidebar-pane headerbar {
 }
 
 .sidebar-pane .navigation-sidebar {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .sidebar-pane .navigation-sidebar > row {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .sidebar-pane .navigation-sidebar > row:hover, .sidebar-pane .navigation-sidebar > row:active, .sidebar-pane .navigation-sidebar > row:focus-visible:focus-within {
@@ -7528,7 +7528,7 @@ window.maximized .sidebar-pane headerbar, window.tiled .sidebar-pane headerbar {
 }
 
 .sidebar-pane check, .sidebar-pane radio {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .sidebar-pane check:hover, .sidebar-pane check:active, .sidebar-pane radio:hover, .sidebar-pane radio:active {
@@ -7588,7 +7588,7 @@ window.maximized .sidebar-pane headerbar, window.tiled .sidebar-pane headerbar {
 .sidebar-pane popover > arrow modelbutton check:not(:checked):not(:indeterminate):not(:disabled), .sidebar-pane popover > arrow modelbutton radio:not(:checked):not(:indeterminate):not(:disabled),
 .sidebar-pane popover > contents modelbutton check:not(:checked):not(:indeterminate):not(:disabled),
 .sidebar-pane popover > contents modelbutton radio:not(:checked):not(:indeterminate):not(:disabled) {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .sidebar-pane popover > arrow checkbutton,
@@ -7619,7 +7619,7 @@ window.maximized .sidebar-pane headerbar, window.tiled .sidebar-pane headerbar {
 }
 
 .sidebar-pane scrollbar > range > trough > slider:active {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: white;
 }
 
 .sidebar-pane scrollbar > range > trough > slider:disabled {
@@ -7889,7 +7889,7 @@ these are pretty self explicative */
 these colors are exported for the window manager and shouldn't be used in applications,
 read if you used those and something break with a version upgrade you're on your own... */
 @define-color wm_title white;
-@define-color wm_unfocused_title rgba(255, 255, 255, 0.7);
+@define-color wm_unfocused_title white;
 @define-color wm_highlight rgba(255, 255, 255, 0.1);
 @define-color wm_bg #2C2C2C;
 @define-color wm_unfocused_bg #3C3C3C;
