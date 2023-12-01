@@ -1718,6 +1718,15 @@ headerbar {
   &.minimize, &.maximize, &.close {
     color: transparent;
 
+    &, &:hover, &:active {
+      box-shadow: none;
+      background-color: transparent;
+      background-image: none;
+      transition: all;
+      transition-duration: 200ms;
+      animation: none;
+    }
+
     &:hover {
       box-shadow: none;
     }

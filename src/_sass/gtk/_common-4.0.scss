@@ -1860,7 +1860,8 @@ window.devel {
       box-shadow: none;
       background-color: transparent;
       background-image: none;
-      transition: none;
+      transition: all;
+      transition-duration: 200ms;
       animation: none;
     }
 
