@@ -5,7 +5,7 @@
    version="1.1"
    viewBox="0 0 14 14"
    id="svg4"
-   sodipodi:docname="checkbox-checked-symbolic.svg"
+   sodipodi:docname="checkbox-mixed-symbolic.svg"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -22,21 +22,22 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:snap-global="false"
-     inkscape:zoom="5.2738378"
-     inkscape:cx="-45.697272"
-     inkscape:cy="14.126335"
+     inkscape:zoom="21.095352"
+     inkscape:cx="-1.0428838"
+     inkscape:cy="11.448019"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4">
+     inkscape:current-layer="svg4"
+     width="20px">
     <inkscape:grid
        type="xygrid"
        id="grid825" />
   </sodipodi:namedview>
   <path
-     d="M 10.910156,3.3730469 A 0.75,0.75 0 0 0 9.8730469,3.5898438 L 6.15625,9.2753906 4.5566406,7.4980469 A 0.75,0.75 0 0 0 3.4980469,7.4433594 0.75,0.75 0 0 0 3.4433594,8.5019531 l 2.25,2.4999999 a 0.750075,0.750075 0 0 0 1.1835937,-0.0918 L 11.126953,4.4101562 A 0.75,0.75 0 0 0 10.910156,3.3730469 Z"
-     id="path1143" />
+     d="m 2.9999999,7 c 0,-0.554 0.446,-1 1.0000004,-1 H 10 c 0.554,0 1,0.446 1,1 0,0.554 -0.446,1 -1,1 H 4.0000003 C 3.4459999,8 2.9999999,7.554 2.9999999,7 Z"
+     id="path194"
+     style="fill:#000000" />
 </svg>

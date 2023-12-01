@@ -62,6 +62,6 @@ $white: #ffffff;
 $black: #000000;
 
 // Button
-$button-close: if($variant == 'light', #ed5d5d, #f44d4d);
-$button-max: if($variant == 'light', #43db68, #4be772);
-$button-min: if($variant == 'light', #e3d93b, #e8f467);
+$button-close: if($variant == 'light', #ed5d5d, #e9524a);
+$button-max: if($variant == 'light', #43db68, #59c837);
+$button-min: if($variant == 'light', #e3d93b, #f1ae1b);

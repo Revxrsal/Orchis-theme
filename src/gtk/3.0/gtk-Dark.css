@@ -8514,7 +8514,7 @@ read if you used those and something break with a version upgrade you're on your
 /*
 FIXME this is really an API */
 @define-color content_view_bg #2C2C2C;
-@define-color placeholder_text_color silver;
+@define-color placeholder_text_color #0d0d0d;
 /* Very contrasty background for text views (@theme_text_color foreground) */
 @define-color text_view_bg #1d1d1d;
 @define-color budgie_tasklist_indicator_color rgba(255, 255, 255, 0.7);
